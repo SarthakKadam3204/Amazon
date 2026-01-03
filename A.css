@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial;
+    border: border-box;
+ 
+}
+
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  
+ 
+}
+
+.nav_logo{
+    height: 50px;
+    width: 113px;
+
+}
+
+.logo{
+    background-image: url("Amazonlogo.png");
+    height: 50px;
+    width: 113px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+
+}
+
+.nav_add{
+    display: flex;
+    width: 113px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.add_icon{
+    margin-top: 0px;
+
+}
+
+.a{
+    font-size: 0.6rem;
+}
+.s{
+    font-size: 0.8rem;
+}
+
+.nav_search{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.ss{
+    width:70px ;
+    height: 50px;
+    border-top-left-radius:8%;
+    border-bottom-left-radius: 8%;
+}
+.sp{
+
+}
+.si{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(243, 211, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_sign{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+span{
+    font-size: 0.7rem;
+}
+.nav_sign p{
+    font-size: 0.8rem;
+}
+.nav_ret{
+    height: 50px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    flex-direction: column;
+}
+
+.nav_ret select{
+    background-color: black; color: aliceblue; border: 0px;
+
+}
+.nav_cart{
+    height: 50px;
+    width: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ .nav_cart i{
+    font-size: 2rem;
+ }
+
+.panel{
+    display: flex;
+    color: #232f3e;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+    height: 40px;
+    
+    
+    
+}
+.panel i{
+    display: flex;
+    margin-left: 2%;
+}
+
+.q p{
+    display: inline;
+    margin-right: 15px;
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.d{
+    font-weight: 600;
+    margin-right: 2%;
+}
+
+.pic{
+    background-image: url("mobile.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.msg{
+    background-color: white;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    margin-bottom: 10px;    
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    
+
+
+}
+.content p{
+    color: rgb(106, 195, 195);
+}
+
+.content h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.box1{
+
+    height: 420px;
+    width: 21%;
+    background-color: rgb(214, 208, 208);
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-bottom: 10px;
+
+
+    
+    
+}
+.box2{
+    
+    height: 420px;
+    width: 21%;
+    background-color: rgb(214, 208, 208);
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.box3{
+    height: 420px;
+    width: 21%;
+    background-color: rgb(214, 208, 208);
+    padding-right: 1%;
+    padding-left: 1%;
+
+}
+.box4{
+    height: 420px;
+    width: 21%;
+    background-color: rgb(214, 208, 208);
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+
+.box5{
+
+    height: 420px;
+    width: 21%;
+    background-color: rgb(214, 208, 208);
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-bottom: 10px;
+    
+    
+}
+.box6{
+    
+    height: 420px;
+    width: 21%;
+    background-color: rgb(214, 208, 208);
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.box7{
+    height: 420px;
+    width: 21%;
+    background-color: rgb(214, 208, 208);
+    padding-right: 1%;
+    padding-left: 1%;
+
+}
+.box8{
+    height: 420px;
+    width: 21%;
+    background-color: rgb(214, 208, 208);
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+
+
+.foot_panel1{
+    height: 50px;
+    background-color: #37475e;
+    font-size: 0.85rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.foot_panel1:hover{
+    border: 2px solid rgb(14, 14, 14);
+    size: 2%;
+}
+
+.pane2{
+    display: flex;
+    background-color: #304158;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 0.85rem;
+    height: 500px;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.pane2 a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.pane2 h2{
+    margin-bottom: 25px;
+}
+
+.pane3{
+    height: 70px;
+    background-color: #23354d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.sel{
+    height: 40px;
+    width: 100px;
+    border: 0.1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pane3 a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid white;
+    height: 40px;
+    width: 100px;
+}
+.pane4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #232f3e ;
+    color: wheat;
+
+}
